@@ -1,0 +1,265 @@
+body {
+  font-family:Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  background-color:rgba(0, 0, 0, 0.829);
+  color: rgb(184, 176, 28);
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: rgb(208, 201, 12);
+  text-decoration: none;
+  font-weight: bold;
+   padding: 5px 10px;
+  border-radius: 5px;
+
+}
+
+header nav ul li a:hover {
+  background-color: #ddd;
+  color: #0000cc;
+}
+
+main {
+  padding: 2rem;
+}
+
+#hero {
+
+  background: linear-gradient(to bottom right, #2d6a4f, #1b4332);
+  padding: 100px 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(54, 141, 32, 0.2);
+}
+
+#hero h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ffffff; 
+}
+
+#hero p{
+  color: #ffffff;
+  font-size: 1em;
+}
+
+  
+
+#home1 {
+text-align: center;
+padding: 1rem;
+/*background-color: #333;*/
+background: linear-gradient(to bottom right, #2d6a4f, #1b4332);
+
+color: white;
+position: relative;
+width: 100%;
+margin-top: 2rem;
+border-top: 3px solid black;
+}
+
+#changeColorBtn{
+ background-color:#00cc00;
+ color:white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#changeColorBtn:hover {
+  background-color:orange;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#about{
+  background: linear-gradient(to right,#0066ff,#0066ff);
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+#loadBioBtn {
+  background-color:#000099;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#loadBioBtn:hover {
+  background-color: rgb(254, 8, 119);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+#about h1 {
+  color:white;
+  font-size: 2em;
+}
+
+#about p {
+  color: white;
+  font-size: 1.5em;
+}
+
+#about1 {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.829);
+  color:white;
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+  border-top: 3px solid black;
+ }
+  
+ 
+
+/* Styles for the Project List */
+#projectList .project {
+  background: linear-gradient(to right, orange, red); /* Different background */
+  box-shadow: 8px 8px 8px rgba(255, 165, 0, 0.5); /* Different shadow */
+  border-radius: 8px;
+  padding: 15px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projectList .project:hover {
+ /* transform: translateY(-8px);*/
+   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+
+
+#projectList .project h2 {
+  color: black;
+}
+
+#projectList .project p {
+  font-size: 1em;
+  color:black;
+}
+
+#projectList .project img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  height: 60vh;
+}
+
+/* Styles for the Projects Container */
+#projectsContainer .project {
+  background: linear-gradient(to bottom right, #2d6a4f, #1b4332); /* Same as before for projects container */
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px #ff9900;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projectsContainer .project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#projectsContainer .project h3 {
+  color: yellowgreen;
+}
+
+#projectsContainer .project p {
+  color: white;
+}
+
+#projectsContainer .project img {
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+#project1 {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  background:linear-gradient(to right, orange, red);
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+  border-top: 3px solid black;
+ }
+
+
+#Social-links {
+  background: linear-gradient(to right, #0099ff, #0099ff);
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center align the content vertically */
+  align-items: center;
+  gap: 20px; /* Space between heading and icons */
+  padding: 20px;
+}
+
+#Social-links h1 {
+  color:white;
+  font-size: 2em;
+  margin-bottom: 20px; /* Space between heading and icons */
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row; /* Arrange icons horizontally */
+  justify-content: center; /* Center align the icons horizontally */
+  align-items: center; /* Center vertically */
+  gap: 50px; /* Space between icons */
+}
+
+#Social-links a {
+  display: inline-block;
+  text-decoration: none;
+  color:darkblue; /* Default color */
+}
+
+#Social-links a svg {
+  width: 50px; /* Adjust the size of the icons */
+  height: 50px; /* Adjust the size of the icons */
+  transition: transform 0.3s ease, fill 0.3s ease; /* Smooth transition */
+}
+
+#Social-links a:hover svg {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  fill: #37ff00; /* Change icon color on hover */
+} 
